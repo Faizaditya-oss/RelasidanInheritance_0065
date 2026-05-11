@@ -9,6 +9,8 @@ public:
         cout << "jantung dihidupkan\n";
     }
 
-   
+    ~jantung() {
+        cout << "jantung dimatikan\n";
+    }
 };
 
